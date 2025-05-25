@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &2029654833771723757
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 399528755730747395, guid: aa27a5d234e148745a90790e1c87ce24, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 399528755730747395, guid: aa27a5d234e148745a90790e1c87ce24, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 399528755730747395, guid: aa27a5d234e148745a90790e1c87ce24, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 399528755730747395, guid: aa27a5d234e148745a90790e1c87ce24, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 399528755730747395, guid: aa27a5d234e148745a90790e1c87ce24, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 399528755730747395, guid: aa27a5d234e148745a90790e1c87ce24, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 399528755730747395, guid: aa27a5d234e148745a90790e1c87ce24, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 399528755730747395, guid: aa27a5d234e148745a90790e1c87ce24, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 399528755730747395, guid: aa27a5d234e148745a90790e1c87ce24, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 399528755730747395, guid: aa27a5d234e148745a90790e1c87ce24, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 399528755730910307, guid: aa27a5d234e148745a90790e1c87ce24, type: 3}
+      propertyPath: m_Name
+      value: Zombie Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 399528755730910307, guid: aa27a5d234e148745a90790e1c87ce24, type: 3}
+      propertyPath: m_TagString
+      value: ZOMBIE
+      objectReference: {fileID: 0}
+    - target: {fileID: 6594717042902695566, guid: aa27a5d234e148745a90790e1c87ce24, type: 3}
+      propertyPath: m_Drag
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6594717042902695566, guid: aa27a5d234e148745a90790e1c87ce24, type: 3}
+      propertyPath: m_Mass
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6594717042902695566, guid: aa27a5d234e148745a90790e1c87ce24, type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6594717042902695566, guid: aa27a5d234e148745a90790e1c87ce24, type: 3}
+      propertyPath: m_Constraints
+      value: 116
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 399528755730910307, guid: aa27a5d234e148745a90790e1c87ce24, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7239267779680773269}
+  m_SourcePrefab: {fileID: 100100000, guid: aa27a5d234e148745a90790e1c87ce24, type: 3}
+--- !u!1 &1846934446876080014 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 399528755730910307, guid: aa27a5d234e148745a90790e1c87ce24, type: 3}
+  m_PrefabInstance: {fileID: 2029654833771723757}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7239267779680773269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1846934446876080014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 702d94f1aa123466c96662b12f2ad253, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FreeZombie: {fileID: 1846934446876175342}
+  zomDead: {fileID: 8300000, guid: ccdac95a3fb324388852f2270ccd0aae, type: 3}
+--- !u!4 &1846934446876175342 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 399528755730747395, guid: aa27a5d234e148745a90790e1c87ce24, type: 3}
+  m_PrefabInstance: {fileID: 2029654833771723757}
+  m_PrefabAsset: {fileID: 0}
